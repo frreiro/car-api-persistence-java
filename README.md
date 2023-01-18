@@ -27,7 +27,7 @@ Crie uma api Spring que seja capaz de receber os seguintes dados via POST
 - **POST** `/car` - Cria um novo carro
   - headers: none
   - body:
-		```json
+	```json
 		{
 			"modelo": "modelocarro",
 			"fabricante": "fabricantecarro",
@@ -35,8 +35,8 @@ Crie uma api Spring que seja capaz de receber os seguintes dados via POST
 			"valor": 1000000,
 			"anoModelo": 2023,
 		}
-		```
-		
+	```
+
 ### Detalhes do Body
   - `modelo` : 
     - No máximo 50 caracteres
